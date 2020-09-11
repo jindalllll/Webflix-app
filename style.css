@@ -1,0 +1,105 @@
+*
+{
+	margin: 0;
+	padding: 
+}
+body
+{
+	background-image: linear-gradient(rgba(0,0,0,8),rgba(0,0,0,8)),url(download.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.logo
+{
+	width: 150px;
+	margin-top: 18px;
+margin-left: 1100px;
+}
+.header
+{
+	height: 10%;
+}
+.header-btn{
+	text-decoration: none !important;
+	border-radius: 30px;
+	padding: 7px 20px;
+	float: right;
+	margin-top: 15px;
+	color: white;
+	background:#107afd;
+	font-weight: 600;
+}
+.movie-details
+{
+	margin: 3% 0;
+}
+.left-box
+{
+	color: #fff;
+	padding-right: 25px;
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding:  16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.topnav .icon{
+	display: none;
+}
+.left-box a{
+	text-decoration: none !important;
+	border-radius: 30px;
+	padding: 7px 20px;
+	margin-top: 35px;
+	color: white;
+	background:#107afd;
+	font-weight: 600;
+	margin-right: 10px;
+	display: inline-block;
+}
+.download-btn{
+	border: 1px solid #fff;
+
+}
+.casting img{
+	height: 60px;
+	width: 60px;
+	margin-right: 15px;
+	cursor: pointer;
+}
+.series h3{
+	color: #fff;
+}
+.series img{
+	width: 100%;
+	
+	margin-top: 15px;
+	box-shadow: -4px 4px 5px 0 #000;
+	cursor: pointer;
+}
+.series img:hover{
+transform: translateY(-10px);
+}
